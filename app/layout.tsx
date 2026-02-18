@@ -1,9 +1,12 @@
 import './globals.css'
+import type { ReactNode } from 'react'
+
+export const dynamic = 'force-dynamic'
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang="en">
